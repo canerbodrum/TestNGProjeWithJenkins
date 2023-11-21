@@ -1,2 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/MERT CANER/IdeaProjects/Cucumber/src/test/java/Runners/_04_TestRunnerSmoke.java"><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuit" parallel="tests" thread-count="2">
+
+    <test name="myTest1">
+
+        <classes>
+            <class name="Runners._01_TestRunner"></class>
+        </classes>
+
+    </test>
+</suite>
